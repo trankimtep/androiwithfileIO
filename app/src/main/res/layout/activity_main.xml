@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Danh sach giang vien"
+        android:textSize="20dp"
+        android:id="@+id/main_danhSachGiangVien"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Danh sach chuyen mon"
+        android:textSize="20dp"
+        android:id="@+id/main_danhSachChuyenMon"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:hint="DS giang vien chuyen mon"
+        android:textSize="20dp"
+        android:id="@+id/main_danhSachGiangVienChuyenMon"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:hint="DS giang vien hon 10 nam"
+        android:textSize="20dp"
+        android:id="@+id/main_DSLonHon10"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Top 2 chuyen mon"
+        android:textSize="20dp"
+        android:id="@+id/main_top2"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Them giang vien"
+        android:textSize="20dp"
+        android:id="@+id/main_themGiangVien"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Them chuyen mon"
+        android:textSize="20dp"
+        android:id="@+id/main_themChuyenMon"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Them chuyen mon giang vien"
+        android:textSize="20dp"
+        android:id="@+id/main_themChuyenMonGiangVien"/>
+
+</LinearLayout>
